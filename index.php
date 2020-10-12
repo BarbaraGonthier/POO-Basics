@@ -5,7 +5,7 @@ $bike = new Bicycle('blue');
 var_dump($bike);
 
 
-$bike->getCurrentSpeed = 0;
+$bike->setCurrentSpeed = 0;
 var_dump($bike);
 
 
